@@ -1,0 +1,22 @@
+{
+    "name": "Python 3 with Jupyter",
+    "image": "mcr.microsoft.com/devcontainers/python:3.9",
+    "extensions": [
+      "ms-python.python",
+      "ms-toolsai.jupyter"
+    ],
+    "postCreateCommand": "pip install jupyter numpy scipy pandas openpyxl xlrd matplotlib seaborn scikit-learn",
+    "settings": {
+      "python.pythonPath": "/usr/local/bin/python"
+    },
+    "forwardPorts": [8888],
+    "remoteUser": "vscode",
+    //"features": {
+    //  "ghcr.io/devcontainers/features/ssh-agent:1": {
+    //    "sshAgentHost": "inherit"
+    //  }
+    //},
+    "mounts": [
+        "source=${localEnv:HOME}/home/projects/ai/neural-network/ODSC_Neural_Nets_11-04-17,target=/workspaces/ODSC_Neural_Nets_11-04-17,type=bind"
+    ]
+}
