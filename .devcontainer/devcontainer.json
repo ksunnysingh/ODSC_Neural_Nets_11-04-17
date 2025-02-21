@@ -16,7 +16,7 @@
     //    "sshAgentHost": "inherit"
     //  }
     //},
-    "mounts": [
-        "source=${localEnv:HOME}/home/projects/ai/neural-network/ODSC_Neural_Nets_11-04-17,target=/workspaces/ODSC_Neural_Nets_11-04-17,type=bind"
-    ]
+    //"mounts": [
+    //    "source=${localEnv:HOME}/home/projects/ai/neural-network/ODSC_Neural_Nets_11-04-17,target=/workspaces/ODSC_Neural_Nets_11-04-17,type=bind"
+    //]
 }
